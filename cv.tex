@@ -3,6 +3,7 @@
 %A Few Useful Packages
 \usepackage{enumitem}
 \usepackage{marvosym}
+\usepackage{anyfontsize}
 \usepackage{fontspec} 					%for loading fonts
 \usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
 \RequirePackage{color,graphicx}
@@ -49,8 +50,8 @@ ItalicFont = Fontin-Italic.otf
 \addtolength{\oddsidemargin}{-2cm}
 \addtolength{\evensidemargin}{-2cm}
 \addtolength{\textwidth}{4cm}
-\addtolength{\topmargin}{-2cm}
-\addtolength{\textheight}{5cm}
+\addtolength{\topmargin}{-1.5cm}
+\addtolength{\textheight}{4cm}
 
 %--------------------BEGIN DOCUMENT----------------------
 \begin{document}
@@ -76,18 +77,19 @@ ItalicFont = Fontin-Italic.otf
 %--------------------SECTIONS-----------------------------------
 %Section: Contact Info
 
-% \noindent\begin{minipage}{0.2\textwidth}% adapt widths of minipages to your needs
-% \centering{\includegraphics{LogoMark.pdf}}
+% \noindent\begin{minipage}{0.5\textwidth}% adapt widths of minipages to your needs
+% \centering{\includegraphics{LogoMark2.pdf}}
 % \end{minipage}%
-\begin{minipage}{0.2\textwidth}% adapt widths of minipages to your needs
+\begin{minipage}{0.7\textwidth}% adapt widths of minipages to your needs
 \par{
-	\Huge Mark Tai
-    \bigskip\par}
+	{\fontsize{40}{50}\selectfont Mark Tai}
+	\Large \hspace{.2em} Coding for work and fun
+    }
 \end{minipage}%
 \hfill%
 \begin{minipage}{0.3\textwidth}
 \begin{tabular}{r|l}
-    \textsc{Website:}   & \href{http://www.marktai.com}{marktai.com}\\
+    % \textsc{Website:}   & \href{http://www.marktai.com}{marktai.com}\\
     \textsc{Email:}     & \href{mailto:me@marktai.com}{me@marktai.com} \\
     \textsc{Address:}   & Fremont, CA \\
     \textsc{Phone:}     & (510) 578-8246\\
@@ -96,56 +98,14 @@ ItalicFont = Fontin-Italic.otf
 
 %Section Objective
 \section{Objective}
-I am a UCLA computer science student, passionate about programming for work and for fun, seeking a full-time summer internship as a software engineer.
+UCLA computer science student, passionate about coding, seeking a summer internship as a software engineer
 
 \section{Summary}
-Well-rounded, friendly and confident college student who adapts easily to new situations and works well with others. Enjoys learning programming languages quickly and is eager to create results in a business setting. \\
-\textbf{Programming Languages:} Go, C++, AngularJS, Bootstrap, Javascript, Python, CSS, HTML, Java, C\#, PHP, LaTeX, VBA \\
+\textbullet \hspace{.1em} Well-rounded, friendly, and confident college student who adapts easily and works well with others \\
+\textbullet \hspace{.1em} Enjoys learning programming languages quickly and is eager to create results in a business setting \\
+\textbullet \hspace{.1em} \textbf{Proficient Programming Languages:} Python, Go, C++, Javascript\\
+\textbullet \hspace{.1em} \textbf{Familiar Programming Languages:} CSS, HTML, Java, C\#, PHP, LaTeX, VBA \\
 
-%Section: Work Experience at the top
-\section{Work Experience}
-\begin{tabular}{r|p{15cm}}
-
- \textsc{Jun-Sept 2015} & \textbf{Engineering Intern, Ooyala}, (Santa Clara, CA)\\
- & \textbullet \hspace{.1em} Created website using AngularJS, Bootstrap, and Go to troubleshoot Atlantis platform \\ 
- & \textbullet \hspace{.1em} Features: single-page, LDAP authentication, rotated S3 logs, Kibana graphs, Atlantis integration \\
- & \textbullet \hspace{.1em} Worked with Amazon Web Services and Chef to serve content from the cloud \\
- & \textbullet \hspace{.1em} Identified and fixed bugs and added features in components of the Atlantis platform \\ 
- \multicolumn{2}{c}{} \\
-
- \textsc{Mar-Jun 2014} & \textbf{Mobile App Developer, Curveball}, (Fremont, CA) \\
- & \textbullet \hspace{.1em} Designed, coded and tested a fully fleshed out mobile app game that is a unique twist on Pong \\
- & \textbullet \hspace{.1em} Features: ads, in-app purchases, online + offline multiplayer, and 40 distinct single player levels \\
- & \textbullet \hspace{.1em} Since the game’s launch in the Android store, has 2,000+ downloads with a 4.2 out of 5 stars \\
- & \textbullet \hspace{.1em} Fixed bugs and added new features such as more realistic physics based on user feedback \\
- \multicolumn{2}{c}{} \\
- 
- \textsc{Apr-Nov 2013} & \textbf{Engineering Intern, Hightail (formerly YouSendIt)}, (Campbell, CA) \\
- & \textbullet \hspace{.1em} Wrote automated test scripts for Hightail’s iPhone and iPad apps using Soasta CloudTest \\ 
- & \textbullet \hspace{.1em} Saved countless hours of quality assurance compared with the previous manually testing  \\ 
- & \textbullet \hspace{.1em} Allowed more frequent and thorough tests for established features  \\
- \multicolumn{2}{c}{} \\
- 
-\textsc{Feb 2013} & \textbf{Web Developer, Future Business Leaders of America (FBLA)}, (Fremont, CA)\\ 
- & \textbullet \hspace{.1em} Worked 100+ hours to create a graduation ceremony website with to reserve seating \\ 
- & \textbullet \hspace{.1em} Features: billing system, mobile site, QR code verification, and automated email system \\ 
- & \textbullet \hspace{.1em} Submitted in an FBLA statewide competition and won 3rd place \\
- \multicolumn{2}{c}{} \\
- 
-\textsc{Jun-Sept 2012} & \textbf{Engineering Intern, Chameleonmath.com}, (Santa Cruz, CA)\\
- & \textbullet \hspace{.1em} Developed online math teaching software using Python and LaTeX to create random problems   \\ 
- & \textbullet \hspace{.1em} Tested variety of skillsets and allowed flexible answers  \\
- \multicolumn{2}{c}{} \\
- 
-\textsc{Sept 2009-} & \textbf{Math Tutor}, (Fremont, CA)\\ 
-\textsc{Sept 2015} & \textbullet \hspace{.1em} Prepared lessons and taught next year's material in the summer  \\ 
- & \textbullet \hspace{.1em} Customized teaching approach to each student's unique learning style.  \\
- \multicolumn{2}{c}{} \\
-
-\textsc{Jun 2010-} & \textbf{Tenor Saxophonist, East Bay Jazzinators}, (Fremont, CA)\\ 
-\textsc{Sept 2014} & \textbullet \hspace{.1em} Performed traditional jazz at various community events.    \\ 
- & \textbullet \hspace{.1em} Leader of Jazzinators (2011 – 2014); taught younger members how to solo and play as a band \\
-\end{tabular}
 
 %Section: Education
 \section{Education}
@@ -156,12 +116,59 @@ Well-rounded, friendly and confident college student who adapts easily to new si
  & \hspace{.5em} Software Construction Lab, Logic Design of Digital Systems \\
 \end{tabular}
 
+%Section: Work Experience
+\section{Work Experience}   
+\begin{tabular}{r|p{15cm}}
+
+ \textsc{Jun-Sept 2015} & \textbf{Software Engineering Intern, Ooyala}, Santa Clara, CA\\
+ & \textbullet \hspace{.1em} Created website with AngularJS, Bootstrap, Go, AWS, and Chef to troubleshoot Atlantis platform \\ 
+ & \textbullet \hspace{.1em} Features: single-page, LDAP authentication, rotated S3 logs, Kibana graphs, Atlantis integration \\
+ & \textbullet \hspace{.1em} Identified and fixed bugs and added features in components of the Atlantis platform \\ 
+ & \textbullet \hspace{.1em} Hackathon Project: remote control car drivable from a website using Arduino and Meteor.js  \\
+ \multicolumn{2}{c}{} \\
+
+ \textsc{Mar-Jun 2014} & \textbf{Mobile App Developer, Curveball}, Fremont, CA \\
+ & \textbullet \hspace{.1em} Designed, coded and tested a fully fleshed out mobile app game that is a unique twist on Pong \\
+ & \textbullet \hspace{.1em} Features: ads, in-app purchases, online + offline multiplayer, and 40 distinct single player levels \\
+ & \textbullet \hspace{.1em} Since the game’s launch in April 2014, has 2,000+ downloads with a 4.2 out of 5 stars \\
+ & \textbullet \hspace{.1em} Fixed bugs and added new features such as more realistic physics based on user feedback \\
+ 
+ & \textbullet \hspace{.1em} \href{https://play.google.com/store/apps/details?id=com.curveBall.curveBall\&hl=en}{play.google.com/store/apps/details?id=com.curveBall.curveBall\&hl=en}\\
+ \multicolumn{2}{c}{} \\
+ 
+ \textsc{Apr-Nov 2013} & \textbf{Software Engineering Intern, Hightail (formerly YouSendIt)}, Campbell, CA \\
+ & \textbullet \hspace{.1em} Wrote automated test scripts for Hightail’s iPhone and iPad apps using Soasta CloudTest \\ 
+ & \textbullet \hspace{.1em} Saved countless hours of quality assurance compared with the previous manually testing  \\ 
+ & \textbullet \hspace{.1em} Allowed more frequent and thorough tests for established features  \\
+ \multicolumn{2}{c}{} \\
+ 
+\textsc{Feb 2013} & \textbf{Web Developer, Future Business Leaders of America (FBLA)}, Fremont, CA\\ 
+ & \textbullet \hspace{.1em} Worked 100+ hours to create a graduation ceremony website with to reserve seating \\ 
+ & \textbullet \hspace{.1em} Features: billing system, mobile site, QR code verification, and automated email system \\ 
+ & \textbullet \hspace{.1em} Submitted in an FBLA statewide competition and won 3rd place \\
+ \multicolumn{2}{c}{} \\
+ 
+\textsc{Jun-Sept 2012} & \textbf{Software Engineering Intern, Chameleonmath.com}, Santa Cruz, CA\\
+ & \textbullet \hspace{.1em} Developed online math teaching software using Python and LaTeX to create random problems \\ 
+ & \textbullet \hspace{.1em} Tested variety of skillsets and allowed flexible answers  \\
+ \multicolumn{2}{c}{} \\
+ 
+\textsc{Sept 2009-} & \textbf{Math Tutor}, Fremont, CA\\ 
+\textsc{Sept 2015} & \textbullet \hspace{.1em} Prepared lessons and tests for current and future material for many math subjects  \\ 
+ & \textbullet \hspace{.1em} Customized teaching approach and speed to challenge students and ensure retention \\
+ \multicolumn{2}{c}{} \\
+
+\textsc{Jun 2010-} & \textbf{Tenor Saxophonist, East Bay Jazzinators}, Fremont, CA\\ 
+ \textsc{Sept 2014} & \textbullet \hspace{.1em} Leader of Jazzinators (2011 – 2014); taught younger members how to solo and play as a band \\
+ & \textbullet \hspace{.1em} Performed traditional jazz at various community events \\ 
+\end{tabular}
+
 %Section: Scholarships and additional info
 \section{Links}
 \begin{tabular}{r|l}
- \textsc{Website} & \href{http://www.marktai.com}{marktai.com}\\
+%  \textsc{Website} & \href{http://www.marktai.com}{marktai.com}\\
  \textsc{LinkedIn} & \href{http://www.linkedin.com/in/MarkTai}{linkedin.com/in/MarkTai}\\
- \textsc{Github} & \href{https://www.github.com/marktai}{github.com/marktai}\\
+%  \textsc{Github} & \href{https://www.github.com/marktai}{github.com/marktai}\\
  \textsc{Curveball} & \href{https://play.google.com/store/apps/details?id=com.curveBall.curveBall\&hl=en}{play.google.com/store/apps/details?id=com.curveBall.curveBall\&hl=en}\\
 
 \end{tabular}
@@ -172,42 +179,37 @@ Well-rounded, friendly and confident college student who adapts easily to new si
 \section{Recommendations}
 
 \begin{tabular}{r|p{15cm}}	
- \textsc{Sept 15} & \textbf{Tai Mai, Software Engineer at Ooyala} – advised Mark at Ooyala\\ 
+ \textsc{Sept 15} & \textbf{Tai Mai, Software Engineer at Ooyala} – Advised Mark at Ooyala\\ 
  \textsc{2015} & Mark has been a valuable member of our small team. Eager to learn and able to master new technologies quickly, Mark has been instrumental in developing an internal website to monitor our company’s application deployment system. This website is crucial in helping customers keep track of the health of their deployed applications. Mark has the amazing ability to come up to speed very quickly with little guidance and was able to finish all his tasks during his time as an intern here at Ooyala. Mark would be a valuable asset to any company and I highly recommend him. \\
  \multicolumn{2}{c}{} \\
  
- \textsc{Sept 12} & \textbf{Erik Burns, Head of chameleonmath.com} – managed Mark at chameleonmath.com\\ 
- \textsc{2012} & Mark worked as a CS programming summer intern for our math education startup. While a mere Sophomore in high school, he taught himself Python from scratch, and ended up writing a large volume of clean, modular, high-quality math code. And he did it fast! He even discovered and fixed an obscure Python bug that our senior engineers could not resolve. \\
- & Mark is self-running, creative, and highly dedicated; all traits that make him a great asset to technology projects. I recommend him very highly. \\
- \multicolumn{2}{c}{} \\
- 
- \textsc{Sept 2} & \textbf{Shushma Thoutam, Mobile QALead Hightail} - managed Mark indirectly at Hightail\\ 
- \textsc{2013} & Mark is exceptionally gifted. Mark joined the HT team as a summer intern for developing automation scripts for the Mobile apps. He did an awesome job in developing the automation suite for HT iOS app that can run on different versions of iPhone and iPAD. He taught himself the tools and scripting languages he needed to be successful at this task. He has good problem solving skills which helped him to resolve some of the automation challenges. \\
+ \textsc{Sept 2} & \textbf{Shushma Thoutam, Mobile QALead Hightail} - Managed Mark indirectly at Hightail\\ 
+ \textsc{2013} & Mark is exceptionally gifted. Mark joined the HT team as a summer intern for developing automation scripts for the Mobile apps. He did an awesome job in developing the automation suite for HT iOS app that can run on different versions of iPhone and iPAD. He taught himself the tools and scripting languages he needed to be successful at this task. He has good problem solving skills which helped him to resolve some of the automation challenges. \\ \\
  & Mark is an innovative thinker, and a pleasure to be around. I highly recommend Mark for any place where he can dive right in and be expected to produce great results in short order. \\
  \multicolumn{2}{c}{} \\
 
- \textsc{Aug 22} & \textbf{Anand Taralika, Engineering Manager at EMC} - managed Mark at Hightail\\ 
+ \textsc{Aug 22} & \textbf{Anand Taralika, Engineering Manager at EMC} - Managed Mark at Hightail\\ 
  \textsc{2013} & I hired Mark to help with test automation for Hightail's mobile products. Given a set of test cases and an automation tool, Mark was tasked with writing an automated test for each test case for the iPad and iPhone versions of the Hightail app. He came up to speed with the tool very quickly and was able to automate the tests with much less support and much faster than I anticipated. He even came up with a way so that all automated tests he wrote were device agnostic, and would run on both the iPhone and iPad. Mark has a logical bent of mind and will be very productive in the field of software engineering. I'd not hesitate in hiring him again. \\
  \multicolumn{2}{c}{} \\
 
- \textsc{Aug 15} & \textbf{Christina Samuel, QA Engineer at Apple } -worked directly with Mark at Hightail\\ 
+ \textsc{Aug 15} & \textbf{Christina Samuel, QA Engineer at Apple} - Worked directly with Mark at Hightail\\ 
  \textsc{2013} & I am happy to write this recommendation for Mark Tai! I had the opportunity to work with him recently and found him to be a motivated and enthusiastic engineer. He is a creative problem solver, who is cheerful and dependable as a fellow team member. He is focused and efficient at completing projects/tasks with minimal supervision, well ahead of schedule. I have every confidence in Mark, that he will be a valuable asset to any team, he works with. \\
  \multicolumn{2}{c}{} \\
  
- \textsc{Feb 1} & \textbf{Sharon Fox, Clinical Research Liner Manager} \\ 
- \textsc{2013} & It is a true pleasure for me to write this letter of recommendation for Mark Tai. Mark has been a math tutor to my twin daughter’s Sophia and Savannah for the past three and a half years. He has tutored them in Pre-algebra, Algebra 1 and Geometry. Even though the girls are twins, they have completely different learning styles. Mark has had to determine what is the best technique in teaching them. Mark himself is brilliant in math but knowing math and teaching math are completely different skills. He has mastered them both. Mark also has an incredible amount of patience’s and is good at keeping the girls focused on their lesson. He has also been extremely helpful in giving them helpful tips on how to prepare and study for tests and answered many questions about high school in general. \\
- & Mark is reliable and very hard working. He has excellent communication skills when it comes to providing feedback after each lesson he teaches the girls. It is invaluable as a parent to have someone that you can depend on when it comes to teaching your child math and preparing them for tests.\\
+ \textsc{Feb 1} & \textbf{Sharon Fox, Clinical Research Liner Manager} (Letter of recommendation)\\ 
+ \textsc{2013} & Mark has been a math tutor to my twin daughter’s Sophia and Savannah for the past three and a half years. He has tutored them in Pre-algebra, Algebra 1 and Geometry. Even though the girls are twins, they have completely different learning styles. Mark has had to determine what is the best technique in teaching them. Mark himself is brilliant in math but knowing math and teaching math are completely different skills. He has mastered them both. Mark also has an incredible amount of patience and is good at keeping the girls focused on their lesson. He has also been extremely helpful in giving them helpful tips on how to prepare and study for tests and answered many questions about high school in general. \\ \\
+ & Mark is reliable and very hard working. He has excellent communication skills when it comes to providing feedback after each lesson he teaches the girls. It is invaluable as a parent to have someone that you can depend on when it comes to teaching your child math and preparing them for tests.\\ \\
  & Mark has my highest recommendation and I am happy to furnish more details if you would like additional information. \\
  \multicolumn{2}{c}{} \\
  
+ \textsc{Sept 12} & \textbf{Erik Burns, Head of chameleonmath.com} – Managed Mark at chameleonmath.com\\ 
+ \textsc{2012} & Mark worked as a CS programming summer intern for our math education startup. While a mere Sophomore in high school, he taught himself Python from scratch, and ended up writing a large volume of clean, modular, high-quality math code. And he did it fast! He even discovered and fixed an obscure Python bug that our senior engineers could not resolve. \\ \\
+ & Mark is self-running, creative, and highly dedicated; all traits that make him a great asset to technology projects. I recommend him very highly. \\
+ \multicolumn{2}{c}{} \\
  
 \end{tabular}
 
 %\hypertarget{gmat}{\textsc{Gmat}\setmainfont{LMRoman10 Regular}\textregistered\setmainfont[SmallCapsFont=Fontin-SmallCaps]{Fontin-Regular}}
 
 %\XeTeXpdffile ''GMAT.pdf'' page 1 scaled 800
-
-
-
-
 \end{document}
